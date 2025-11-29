@@ -211,7 +211,7 @@
         }
 
         .image {
-            background-image: url("/image000000.png");
+            background-image: url("/images/image000000.png");
             background-position: center center;
             border-radius: 25px;
             background-size: cover;
@@ -221,7 +221,7 @@
         }
 
         .image2 {
-            background-image: url("/pcb.png");
+            background-image: url("/images/pcb.png");
 
             background-position: center center;
             border-radius: 25px;
@@ -233,7 +233,7 @@
         }
 
         .image3 {
-            background-image: url("/game.png");
+            background-image: url("/images/game.png");
 
             background-position: center center;
             border-radius: 25px;
@@ -245,7 +245,7 @@
         }
 
         .image4 {
-            background-image: url("/minesweeper.png");
+            background-image: url("/images/minesweeper.png");
 
             background-position: center center;
             border-radius: 25px;
