@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Kevin Li</title>
+    <meta name="description" content="Kevin's Personal Website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container" id="top">
+        <header>
+            <a class="brand" href="#top">
+                <div class="logo">KL</div>
+                <div>
+                    <h1>Kevin Li</h1>
+                    <p>Just a guy who does stuff sometimes</p>
+                </div>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <a class="btn" href="#about">About</a>
+                <a class="btn" href="#projects">Projects</a>
+                <a class="btn" href="#contact">Contact</a>
+
+                <a href="https://github.com/GKevinLi" id="github"
+                    style="background-image: url(/github.png);">testing</a>
+
+                <a href="https://www.linkedin.com/in/gengwen-li-776a86265/" id="linkedin"
+                    style="background-image: url(/linkedin.png);">testing</a>
+
+
+            </nav>
+        </header>
+
+        <main>
+            <section class=" hero">
+                <div style="display:flex;justify-content:space-between;gap:20px;align-items:flex-start">
+                    <div class="intro" style="flex:1">
+                        <div class="eyebrow">Hello, I’m</div>
+                        <h2>Kevin Li</h2>
+                        <p class="lead">I'm a student at the University of Texas at Austin who enjoys
+                            making fun projects and learning new things.
+                        </p>
+                        <a class="btn" href="#projects">See my projects</a>
+
+
+                    </div>
+
+                    <div class="image"></div>
+
+                </div>
+
+
+            </section>
+
+
+
+            <section id="about" style="margin-bottom:28px">
+                <div style="display:flex;justify-content:space-between;gap:20px;align-items:flex-start">
+                    <div style="flex:1">
+                        <h3 style="padding-left:5px;padding-bottom: 10px;border-bottom: 5px solid rgb(32, 36, 92);">
+                            About</h3>
+
+                        <p style="padding-left:5px;" class="muted">I'm a developer and engineer who enjoys dabbling in
+                            a whole bunch of different fields. I particularly enjoy working on projects involving game
+                            development,
+                            machine learning, or embedded systems. I've done many projects outside of these areas,
+                            though,
+                            and I'm always interested in learning new skills or trying new things. Check out some of my
+                            projects
+                            down below!
+                            <br><br>
+                            In my spare time, I enjoy working on fun side projects of questionable usefulness, reading,
+                            biking, and playing video games.
+                        </p>
+
+
+                    </div>
+                    <div style="width:250px;padding-top:30px;">
+                        <div class="card" style="padding:16px">
+                            <h4 style="margin:0 0 8px 0">Skills</h4>
+                            <div class="muted">Java · Python · C++ · C# · Javascript · HTML · CSS · Unity · KiCAD ·
+                                Onshape</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="projects" style="margin-bottom:28px">
+                <h3 style="padding-left:5px;padding-bottom: 10px;border-bottom: 5px solid rgb(32, 36, 92);">Projects
+                </h3>
+                <div class="projects" style="margin-top:12px">
+                    <article class="project">
+                        <div style="display:flex;justify-content:space-between;gap:20px;align-items:flex-start">
+                            <div>
+                                <h4>Motor Controller PCB</h4>
+                                <p class="muted">A custom Brushless DC Motor driver designed to take up to 20A of
+                                    current
+                                    from a
+                                    4S (15v)
+                                    battery. It utilizes the DRV8323 motor controller chip and has current sensing and
+                                    back
+                                    EMF
+                                    detection features.
+                                </p>
+                                <div class="tags">
+                                    <span class="tag">KiCAD</span>
+                                </div>
+                            </div>
+                            <div class="image2"></div>
+
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div style="display:flex;justify-content:space-between;gap:20px;align-items:flex-start">
+                            <div>
+                                <h4>Momento Mori</h4>
+                                <p class="muted">A game created for Texas Game Jam 2025 built with three teammates
+                                    (I did most of the programming and game design). Won the awards for Best Design and
+                                    Judge's Choice. Itch.io link <a
+                                        href="https://thatonedumass.itch.io/momento-mori">here</a>
+                                </p>
+
+                                <div class="tags">
+                                    <span class="tag">Unity</span>
+                                    <span class="tag">C#</span>
+                                </div>
+                            </div>
+                            <div class="image3"></div>
+
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div style="display:flex;justify-content:space-between;gap:20px;align-items:flex-start">
+                            <div>
+                                <h4>Minesweeper RL Solver</h4>
+                                <p class="muted"> A machine learning model I made to solve Google Minesweeper Easy mode
+                                    (10x10 grid, 10 mines). Uses a custom simulated minesweeper environment and the Deep
+                                    Q-Learning approach with a convolutional neural network to determine the Q-values.
+                                </p>
+                                <div class="tags">
+                                    <span class="tag">Python</span>
+                                    <span class="tag">Machine Learning</span>
+                                </div>
+                            </div>
+                            <div class="image4"></div>
+
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" style="margin-top:28px">
+                <h3 style="padding-left:5px;padding-bottom: 10px;border-bottom: 5px solid rgb(32, 36, 92);">Contact</h3>
+                <div style="display:grid;grid-template-columns:1fr 360px;gap:18px;margin-top:12px">
+                    <aside class="card" style="padding:18px">
+                        <p class="muted">Email: <a href="mailto:gengwen.li@gmail.com">gengwen.li@gmail.com</a>
+                        </p>
+                        <p class="muted">Or find me on GitHub and LinkedIn.</p>
+
+                    </aside>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+        </footer>
+    </div>
+
+    <script>
+
+
+        // Set year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const href = a.getAttribute('href');
+                if (href === '#' || href === '#!') return;
+                const el = document.querySelector(href);
+                if (el) { e.preventDefault(); el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+            });
+        });
+    </script>
+</body>
+
+</html>
